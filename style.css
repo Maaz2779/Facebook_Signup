@@ -1,0 +1,149 @@
+*{
+    font-family: "Roboto", sans-serif !important;
+    font-style: normal;
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1227px;
+    }
+}
+.custom-padding{
+    padding-bottom: 112px;
+    padding-top: 72px;
+    background: #f0f2f5;
+}
+.facebook-heading{
+    color: #0866ff;
+    font-size: 45px;
+}
+.paragraph{
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 32px;
+}
+@media only screen and (min-width: 1200px) {
+    .paragraph{
+        font-size: 28px;
+        font-weight: normal;
+        line-height: 32px;
+        width: 500px;
+    }
+  }
+form{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box;
+    margin: 12px 0 0;
+    padding: 16px 14px 16px;
+    background: #fff;
+}
+@media only screen and (min-width: 1200px) {
+    form{
+        width: 396px;
+        padding: 20px 18px 20px;
+    }
+    .create-a-page-celebrity{
+        width: 396px;
+    }
+  }
+.login-input{
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 100%;
+}
+.login-btn{
+    background-color: #0866ff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 100%;
+    color: #fff;
+    font-weight: 600;
+    transition: all 0.3s !important;
+}
+.login-btn:hover{
+    color: #fff;
+    background-color: #1877f2;
+}
+.forgetten-password{
+    text-decoration: none;
+}
+.forgetten-password:hover{
+    text-decoration: underline;
+}
+.create-account-btn{
+    background-color: #42b72a;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    line-height: 48px;
+    padding: 0 16px;
+    color: #fff;
+}
+.create-a-page-celebrity{
+  
+
+}
+/* Sign Up Page */
+.modal-title{
+    color: #1c1e21;
+    font-size: 32px;
+}
+.signup-inputs{
+    padding: 11px;
+    line-height: 16px;
+    font-size: 15px;
+    background: #f5f6f7;
+    color: #8d949e;
+}
+.form-check{
+    box-sizing: border-box;
+    color: #1c1e21;
+    font-size: 15px;
+    border: 1px solid #ced4da;
+    padding: 7px 5px 6px 30px;
+    border-radius: 3px;
+}
+.signup-btn{
+    background-color: #00a400;
+    color: #fff;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 60px;
+    text-shadow: none;
+    font-size: 18px;    
+    border-radius: 6px;
+    box-shadow: none;
+}
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 469px;
+        margin: 1.75rem auto;
+    }
+}
+.navbar-light .navbar-brand{
+    font-size: 28px;
+    font-weight: 600;
+    color: #0866ff;
+}
+.navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
+    color: #0866ff !important;
+}
+.login-btn-2{
+    width: 85px;
+    background: #1b74e4;
+    color: #fff;
+}
+.login-btn-2:hover{
+    color: #fff !important;
+}
+.second-login-input{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.forgetten-password-2{
+    width: 156px;
+    display: flex;
+    padding: 9px 4px 9px 5px;
+}
